@@ -13,6 +13,12 @@
     </form>
 
 
+    <form method="post" enctype="multipart/form-data" action="{{route('image_upload')}}">
+        @csrf
+        <input type="submit" value="go with default image">
+    </form>
+
+
     </body>
 </html>
 
